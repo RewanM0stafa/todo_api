@@ -13,7 +13,7 @@ mongoose.connect('mongodb://mongo:27017/todo_db',{
 
 
 
-const todoRoutes = require('./todoRouter/routes');
+const todoRoutes = require('./routes');
 app.use('/', todoRoutes);
 
 
