@@ -17,7 +17,7 @@ const todoRoutes = require('./routes');
 app.use('/', todoRoutes);
 
 
-const port =  3000;
+const port =  3070;
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
 });
